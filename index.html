@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="text-white p-4 fixed bg-gray-900 left-0 right-0 z-10">
+        <nav class="flex justify-between items-center h-12">
+            <div class="text-2xl font-semibold tracking-wide">
+                <span class="name hover:text-3xl hover:text-yellow-500 transition-all duration-1200">Mr. Pintu
+                    Bhamu</span>
+            </div>
+            <div class="flex space-x-4">
+                <a class="navbar" href="#aboutme">About</a>
+                <a class="navbar" href="#myprojects">Projects</a>
+                <a class="navbar" href="#contactme">Contact</a>
+                <a class="navbar" href="#myresume">Resume</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="aboutme"
+            class="p-8 py-40 bg-gradient-to-r from-green-900 via-green-600 aboutme to-yellow-300 min-h-screen  ">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="font-bold abt text-white mb-10 hover:underline">About me</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div class="md:order-2">
+                        <img class="myimg  transition-all duration-900 ease-in-out w-sm m-auto  hover:mt-6 md:hover:mt-0 rounded-xl border-4 border-black-1300 hover:shadow-2xl shadow-black-900 hover:scale-105"
+                            src="Assets/mypic 2.jpg" alt="pic">
+                    </div>
+                    <div class="text-white">
+                        <div class="flex flex-col">
+                            <span class="mb-2 text-2xl font-bold hover:text-3xl transition-all duration-1200 mt-4">Mr.
+                                Pintu
+                                Bhamu</span>
+                            <span class="mb-2 text-lg hover:text-xl transition-all duration-1200">B.Tech in Information
+                                Technology</span>
+                            <span class="mb-2 text-lg hover:text-xl transition-all duration-1200">A passionate web
+                                developer who
+                                loves turning ideas into interactive,
+                                user-friendly
+                                websites. With a strong focus on clean code, performance and modern design, I skilled in
+                                HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB & DSA in C++.
+                                Committed to crafting
+                                user-focused solutions and eager to harness technology to tackle challenging problems.
+                                Let's create something amazing
+                                together!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="w-screen  h-8 m-0">
+        <section id="myprojects"
+            class="p-10 bg-gradient-to-r from-green-900 via-green-600 aboutme to-yellow-300 min-h-screen">
+            <h2 class="font-bold abt text-white hover:underline">My Projects</h2>
+            <div class="mt-10  grid md:grid-cols-2 xl:grid-cols-3 sm:w-full  gap-10">
+                <div
+                    class=" group relative  shadow-lg rounded-lg overflow-hidden p-5 card mycard rounded-xl transition-all duration-300 ease-in-out hover:shadow-2xl shadow-black-900 hover:scale-105">
+                    <div class="relative overflow-visible"><img src="Assets/wanderLust.jpg"
+                            class="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-100 hover:scale-110 card-img-top"
+                            alt="WanderLust"></div>
+                    <div class="card-body">
+                        <h5 class="card-title text-white">WanderLust</h5>
+                        <p class="card-text text-white text-opacity-50">A full-stack project like Airbnb involves
+                            building a
+                            platform
+                            where users
+                            can list, discover accommodations, integrating frontend, backend, database, and
+                            authentication functionalities.</p>
+                        <div class="flex flex-wrap justify-start gap-2  lg:justify-start">
+                            <a href="https://wanderlust-w44o.onrender.com/listings"
+                                class="btn btn-danger  mr-4">Demo</a>
+                            <a href="https://github.com/pintubhamu19/WanderLust.git"
+                                class="btn btn-success mr-4">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="group relative  shadow-lg rounded-lg overflow-hidden p-5 card mycard rounded-xl transition-all duration-300 ease-in-out hover:shadow-2xl shadow-black-900 hover:scale-105">
+                    <div class="relative overflow-visible">
+                        <img src="Assets/weatherApp.jpg"
+                            class="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-100 hover:scale-110 card-img-top"
+                            alt="WeatherApp">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-white">WeatherApp</h5>
+                        <p class="card-text text-white text-opacity-50">A weather app built with React.js to display
+                            current weather conditions
+                            according to user serach by city name.</p>
+                        <div class="flex flex-wrap  justify-start gap-2  lg:justify-start">
+                            <a href="https://weatherapp-2lyi.onrender.com/" class="btn lastbtn btn-danger mr-4">Demo</a>
+                            <a href="https://github.com/pintubhamu19/WeatherApp.git"
+                                class="btn  btn-success mr-4">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="group relative  shadow-lg rounded-lg overflow-hidden p-5 card mycard rounded-xl transition-all duration-300 ease-in-out hover:shadow-2xl shadow-black-900 hover:scale-105">
+                    <div class="relative overflow-visible">
+                        <img src="Assets/ecomm3.jpg"
+                            class="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-100 hover:scale-110 card-img-top"
+                            alt="E-Commerce">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-white">E-Commerce</h5>
+                        <p class="card-text text-white text-opacity-50">A frontend for an e-commerce website provides a
+                            seamless user
+                            experience with intuitive navigation, product displays, and a responsive design for smooth
+                            shopping.</p>
+
+                        <div class="flex flex-wrap justify-start gap-2  lg:justify-start">
+                            <a href="https://shopper-yagt.onrender.com/" class="btn btn-danger mr-4">Demo</a>
+                            <a href="https://github.com/pintubhamu19/E-commerce-react.git"
+                                class="btn btn-success mr-4">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="group relative  shadow-lg rounded-lg overflow-hidden p-5 card mycard rounded-xl transition-all duration-300 ease-in-out hover:shadow-2xl shadow-black-900 hover:scale-105">
+                    <div class="relative overflow-visible">
+                        <img src="Assets/TodoApp.png"
+                            class="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-100 hover:scale-110 card-img-top"
+                            alt="Todo App">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-white">To-Do App</h5>
+                        <p class="card-text text-white text-opacity-50">A To-Do app built with React.js offers a dynamic
+                            and interactive interface for managing tasks efficiently with state management and
+                            component-based architecture.</p>
+
+                        <div class="flex flex-wrap justify-start gap-2 lg:justify-start">
+                            <a href="https://reacttodoapp-dgup.onrender.com/" class="btn btn-danger">Demo</a>
+                            <a href="https://github.com/pintubhamu19/React-TodoList.git"
+                                class="btn btn-success">GitHub</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="w-screen  h-12 m-0">
+        <section id="contactme" class="p-4 text-white">
+            <h2 class="font-bold abt text-white mb-10 hover:underline">Contact Me</h2>
+            <form class="bg-green-900 p-8 mb-2 w-3/4 rounded-lg m-auto mt-4">
+                <div class="form-group mb-4">
+                    <label for="exampleFormControlInput1" class="pb-2">Name</label>
+                    <input required type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="exampleFormControlInput2" class="pb-2">Email Id</label>
+                    <input required type="email" class=" form-control" id="exampleFormControlInput2">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="exampleFormControlTextarea3" class="pb-2">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea3" rows="3" required></textarea>
+                </div>
+                <button
+                    class="bg-purple-600 bton hover:bg-purple-700 hover:scale-105 hover:shadow-lg transition-all duration-300 text-white font-bold py-2 px-4 rounded-md">
+                    Send Msg
+                </button>
+            </form>
+        </section>
+    </main>
+    <hr class="w-screen  h-12 m-0">
+    <footer id="myresume" class="p-10 footer  bg-gradient-to-r from-green-900 via-green-600 aboutme to-yellow-300">
+        <h2 class="font-bold abt text-white  hover:underline">Resume</h2>
+        <div class="bg-gray-100 p-8 mt-4 rounded-lg">
+            <h3 class="text-xl cont text-black  mb-4">Skills</h3>
+            <ul class="list-disc text-lg font-thick font-semibold">
+                <li class="mb-4">Frontend Technologies : HTML5, CSS3, JavaScript</li>
+
+                <li class="mb-4">Web Technologies : Express.js, Node.js, React.js</li>
+
+                <li class="mb-4">Database Management : MongoDB, MySql</li>
+            </ul>
+            <h3 class="cont text-black mb-2">Contact Info</h3>
+            <div class="">
+                <p class="font-semibold text-black mb-0">Email : pintubhamu711@gmail.com</p>
+                <p class="font-semibold text-black">Contact : +91 82786 12174</p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/pintubhamu19" target="_blank"
+                        class="bg-gray-900 footerbtn no-underline text-white px-4 py-2 rounded-lg font-semibold hover:bg-gray-700 transition">
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/pintu-bhamu-7b62b0257/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"
+                        class="bg-blue-600 footerbtn no-underline text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <h3 class="cont  text-black mt-3 mb-3">Download Resume</h3>
+            <a href="Assets/Pintu Bhamu.pdf" target="_blank" download="Assets/Pintu Bhamu.pdf">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded">
+                    Download PDF
+                </button>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

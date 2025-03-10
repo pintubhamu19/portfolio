@@ -1,0 +1,145 @@
+@media(max-width:400px) {
+    .name {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .abt {
+        margin-bottom: 50px !important;
+    }
+}
+
+.abt {
+    font-size: 29px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.abt:hover {
+    font-size: 32px;
+}
+
+.card {
+    border: 3px solid black !important;
+}
+
+.cont {
+    font-size: 20px !important;
+    font-weight: 750 !important;
+}
+
+.footerbtn {
+    text-decoration: none !important;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 4px whitesmoke !important;
+}
+
+@media(max-width:500px) {
+    .footer {
+        font-size: 16px !important;
+    }
+}
+
+.mycard {
+    background-color: #070717 !important;
+}
+
+#contactme {
+    background-color: #070717;
+}
+
+.form-control {
+    background-color: #6f7304 !important;
+    color: white !important;
+
+}
+
+.bton {
+    border-radius: 20px !important;
+}
+
+
+/* .aboutme {
+    font-size: 40px;
+    margin-bottom: 25px;
+} */
+
+.navbar {
+    text-decoration: none;
+    color: wheat;
+    padding-top: 16px !important;
+    cursor: pointer;
+}
+
+
+
+.myimg:hover {
+    box-shadow: 2px 2px 14px black;
+    border: 15px solid black;
+}
+
+
+.navbar:hover {
+    color: aqua;
+    font-size: 18px;
+
+}
+
+@media(max-width:560px) {
+    .name {
+        font-size: 20px;
+    }
+
+    .name:hover {
+        font-size: 23px;
+    }
+
+}
+
+@media(max-width:510px) {
+    .name {
+        font-size: 19px;
+    }
+
+    .name:hover {
+        font-size: 21px;
+    }
+}
+
+@media(max-width:480px) {
+    .name {
+        font-size: 16px;
+    }
+
+    .name:hover {
+        font-size: 17px;
+    }
+
+    .navbar {
+        font-size: 15px;
+    }
+
+    .navbar:hover {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:400px) {
+    .name {
+        font-size: 14px;
+    }
+
+    .name:hover {
+        font-size: 15px;
+    }
+
+    .navbar {
+        font-size: 12px;
+    }
+
+    .navbar:hover {
+        font-size: 12px;
+    }
+}
